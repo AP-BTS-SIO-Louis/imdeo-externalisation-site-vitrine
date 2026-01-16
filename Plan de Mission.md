@@ -7,7 +7,7 @@
 1. **Contexte du projet :** Pourquoi ce sujet maintenant ?
 2. **Glossaire technique :** Définition des termes clés (ex: *Cluster*, *Reverse Proxy*, *WAF*).
 3. **Principes fondamentaux :** Explication des mécanismes théoriques (ex: fonctionnement de la Haute Disponibilité, principe du Tunneling).
-4. **État de l'art :** Quelles sont les normes actuelles du marché sur ces technologies ?
+4. **Normes :** Quelles sont les normes actuelles du marché sur ces technologies ?
 
 > **Objectif :** Démystifier la technique pour les décideurs non-experts.
 
