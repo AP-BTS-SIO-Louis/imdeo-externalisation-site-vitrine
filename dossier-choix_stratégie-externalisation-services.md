@@ -20,7 +20,7 @@
 2. Pertinence de l'externalisation
 3. Cadre juridique et contractuel
 4. Analyse des types d'hébergement
-5. Préconisation technique (Solution proposée)
+5. Solution proposée
 
 ---
 ## 1. Expression des besoins
