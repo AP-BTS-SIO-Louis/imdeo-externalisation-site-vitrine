@@ -6,7 +6,7 @@
 
 ![](https://raw.githubusercontent.com/firetoak/medias/main/bts-sio-images/logo_imdeo.png)
 
----
+***
 ## Informations
 
 - **Auteurs :** Louis Biseray, Louis MEDO
@@ -37,7 +37,7 @@ Le tableau ci-dessous recense l'ensemble des exigences extraites du cahier des c
 | **Exploitation**    | Accès Développeur           | Le service développement doit pouvoir **ajouter, modifier et supprimer** des fichiers (HTML/CSS/PHP) et accéder directement à la base de données à tout moment. |
 | **Sécurité**        | Authentification            | L'accès aux interfaces de gestion de l'hébergeur doit être sécurisé par une **authentification multifacteur (MFA)**.                                            |
 | **Sécurité**        | Protection Réseau           | L'hébergeur doit fournir une protection contre les attaques par déni de service (**DoS et DDoS**).                                                              |
-| **Disponibilité**   | Engagement de Service (SLA) | Le contrat doit garantir un taux de disponibilité de **99% (soit maximum 3,65 jours d'indisponibilité par an) par an**.                                         |
+| **Disponibilité**   | Engagement de Service (SLA[^2]) | Le contrat doit garantir un taux de disponibilité de **99% (soit maximum 3,65 jours d'indisponibilité par an) par an**.                                         |
 | **Sauvegarde**      | Stratégie de Backup         | La solution doit permettre la mise en place d'une stratégie de sauvegarde respectant la règle du **3-2-1**.                                                     |
 | **Juridique**       | Conformité des données      | L'hébergement doit être strictement conforme au **RGPD** car le site traite des données personnelles.                                                           |
 | **Juridique**       | Fin de contrat              | Une clause de **réversibilité** est exigée pour récupérer les données et l'application en cas de changement de prestataire.                                     |
@@ -73,7 +73,7 @@ De nombreuses entreprises se retrouvent dépendantes d'AWS pour la gestion de le
 [^8]: **CAPEX** : dépenses d'investissement (Ex. imprimante, serveurs).
 [^9]: **Scalabilité** : capacité d'un système à gérer un accroissement de la demande sans perdre en efficacité ou en performance.
 
----
+***
 ### 3. Cadre juridique et contractuel
 
 Le choix du prestataire repose sur sa capacité à respecter le cahier des charges technique et juridique du groupe. Afin de sécuriser le partenariat, les clauses suivantes devront être contractualisées :
@@ -103,17 +103,16 @@ Le choix du prestataire repose sur sa capacité à respecter le cahier des charg
 
 ## 4. Analyse des types d'hébergement.
 
-*Cette partie sert à montrer les différents types d'hébergement pour le site vitrine et le quel serait le plus pertinent pour notre utilisation*
+> *Cette partie sert à montrer les différents types d'hébergement pour le site vitrine et le quel serait le plus pertinent pour notre utilisation*
 
 __Types d'hébergement :__
 
-1.  __Cloud :__ Flexibilité / Haute disponibilité
-2.  __Mutualisé :__ Idéale pour débuter
-3. __Joomla :__ Manager
-4. __Eco-Responsable :__ Éthique et Image de marque
-5. __Serveur privé virtuel :__ Grande souplesse
+4.1  __Cloud :__ Flexibilité / Haute disponibilité
+4.2  __Mutualisé :__ Idéale pour débuter
+4.3 __Joomla :__ Manager
+4.4 __Eco-Responsable :__ Éthique et Image de marque
+4.5 __Serveur privé virtuel :__ Grande souplesse
 
-____
 ###  4.1 Hébergement Cloud
 
 -  __Avantage__ : Très grande disponibilité, facturation à l'usage, fonctionnalité robuste de sauvegarde des données. Tolérance à la panne, si un serveur tombe en panne un autre prendra le relais. Dans le cas d'une augmentation de trafic la puissance GPU et la RAM augmentera automatiquement
