@@ -67,5 +67,5 @@ Bien que le VPS offre plus de puissance brute pour moins cher, je recommande tou
 
 #### Lexique
 
-[^1]: **Teraform** :Outil d'Infrastructure as Code (IaC) permettant d'automatiser la création et la gestion d'infrastructures cloud via des fichiers de configuration déclaratifs.
+[^1]: **Terraform** :Outil d'Infrastructure as Code (IaC) permettant d'automatiser la création et la gestion d'infrastructures cloud via des fichiers de configuration déclaratifs.
 [^2]: **Ceph** : Solution de stockage distribué unifiée et évolutive, gérant simultanément le stockage en mode objet, bloc et fichier sur une même plateforme.
