@@ -28,8 +28,8 @@
 **L'offre : OVH Public Cloud (Instance B2-7 ou équivalent)**
 
 ### Les Fonctionnalités
-* **Orchestration :** Pilotable via API / Terraform (Infrastructure as Code).
-* **Haute Dispo :** Stockage Ceph triplé (données répliquées 3 fois).
+* **Orchestration :** Pilotable via API / Terraform[^1] (Infrastructure as Code).
+* **Haute Dispo :** Stockage Ceph[^2] triplé (données répliquées 3 fois).
 * **Réseau Pro :** Compatible **vRack** (Réseau privé isolé entre serveurs) et **Floating IP** (bascule d'IP immédiate en cas de panne).
 * **Flexibilité :** Resize à chaud (selon OS) et facturation à l'heure possible.
 
@@ -65,3 +65,8 @@ Bien que le VPS offre plus de puissance brute pour moins cher, je recommande tou
 3.  **Continuité de service :** En cas de crash critique du serveur, grâce à la **Floating IP** du Public Cloud, nous pouvons remonter une sauvegarde sur une nouvelle instance et y pointer l'IP en quelques secondes via script. Sur un VPS, nous sommes dépendants du temps de réparation physique de l'hôte par OVH.
 
 **Verdict :** Nous choisissons la **flexibilité et la sécurité du Public Cloud (30€/mois)** plutôt que la puissance brute du VPS, car un site vitrine a besoin de haute disponibilité plus que de puissance de calcul.
+
+#### Lexique
+
+[^1]: **Teraform** :Outil d'Infrastructure as Code (IaC) permettant d'automatiser la création et la gestion d'infrastructures cloud via des fichiers de configuration déclaratifs.
+[^2]: **Ceph** : Solution de stockage distribué unifiée et évolutive, gérant simultanément le stockage en mode objet, bloc et fichier sur une même plateforme.

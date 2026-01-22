@@ -21,7 +21,7 @@ De nombreuses entreprises se retrouvent dépendantes d'AWS pour la gestion de le
 
 #### Lexique
 
-[^1]: **CDN** = **C**ontent **D**elivery **N**etwork : Réseau de serveurs distribués géographiquement pour diffuser du contenu rapidement.
+[^1]: **CDN** : **C**ontent **D**elivery **N**etwork : Réseau de serveurs distribués géographiquement pour diffuser du contenu rapidement.
 [^3]: **Clause réversibilité** : disposition contractuelle qui organise la restitution ou le transfert des données, logiciels ou infrastructures critiques en cas de fin de contrat, de faillite du prestataire ou de tout autre événement mettant fin à la collaboration.
 [^6]: **Vendor Lock-in** : dépendance d'un client à un produit ou à une technologie.
 [^7]: **OPEX** : charge d'exploitation (Ex : cartouche d'encre pour l'imprimante).
